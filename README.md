@@ -11,7 +11,7 @@ Build OpenWrt using GitHub Actions
 ## Usage
 
 ### 自用R7800-NSS固件
-
+基于[openwrt-21.02-nss-qsdk10.0](https://github.com/ACwifidude/openwrt)固件编译
 |IP|用户名|密码|
 |:--:|:--:|:--:|
 |10.0.0.1|root|空|
