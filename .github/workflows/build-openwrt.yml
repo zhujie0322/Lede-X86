@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/ACwifidude/openwrt
-  REPO_BRANCH: openwrt-21.02-nss-qsdk10.0
+  REPO_BRANCH: kernel5.4-nss-qsdk10.0
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   DIY_P1_SH: diy-part1.sh
