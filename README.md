@@ -12,6 +12,24 @@ Build OpenWrt using GitHub Actions
 |:--:|:--:|:--:|
 |10.0.0.1|root|password|
 
+### 已加入的NSS驱动项
+`Network Devices`
+- kmod-nss-ifb
+- kmod-qca-nss-cfi-cryptoapi
+- kmod-qca-nss-crypto
+- kmod-qca-nss-drv
+- kmod-qca-nss-drv-gre
+- kmod-qca-nss-drv-lag-mgr
+- kmod-qca-nss-drv-pppoe
+- kmod-qca-nss-drv-profile
+- kmod-qca-nss-drv-vlan-mgr
+- kmod-qca-nss-gmac
+- kmod-qca-nss-drv-tun6rd
+- kmod-qca-nss-drv-tunipip6
+
+`Network Support`
+- kmod-qca-nss-drv-qdisc
+- kmod-qca-nss-ecm-standard
 
 ## License
 
