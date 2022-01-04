@@ -12,6 +12,8 @@ Build OpenWrt using GitHub Actions
 |:--:|:--:|:--:|
 |10.0.0.1|root|password|
 
+默认使用`PassWall插件`
+
 ### 已加入的NSS驱动项
 `Network Devices`
 - kmod-nss-ifb
