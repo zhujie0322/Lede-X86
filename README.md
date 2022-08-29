@@ -12,22 +12,36 @@ Build OpenWrt using GitHub Actions
 |:--:|:--:|:--:|
 |10.0.0.1|root|password|
 
-默认使用`PassWall插件`
+### APP
+- PassWall
+- OpenClash
+- luci-app-udpxy
+- igmpproxy
 
-### 已加入的NSS驱动项
+### 驱动项
+
+`Firmware`
+- ath10k-firmware-qca9984-ct
+
+`Kernel modules -> Wireless Drivers`
+- kmod-ath10k-ct
+
 `Network Devices`
 - kmod-nss-ifb
-- kmod-qca-nss-cfi-cryptoapi
-- kmod-qca-nss-crypto
+- kmod-qca-nss-drv-pppoe
 - kmod-qca-nss-drv
+- kmod-qca-nss-gmac
+- kmod-qca-nss-drv-vlan-mgr
+- kmod-qca-nss-crypto
+- kmod-qca-nss-cfi-cryptoapi
 - kmod-qca-nss-drv-gre
 - kmod-qca-nss-drv-lag-mgr
-- kmod-qca-nss-drv-pppoe
 - kmod-qca-nss-drv-profile
-- kmod-qca-nss-drv-vlan-mgr
-- kmod-qca-nss-gmac
 - kmod-qca-nss-drv-tun6rd
 - kmod-qca-nss-drv-tunipip6
+- kmod-qca-nss-drv-vlan-mgr
+- kmod-qca-nss-drv-ipsecmgr
+
 
 `Network Support`
 - kmod-qca-nss-drv-qdisc
