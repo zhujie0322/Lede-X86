@@ -18,7 +18,7 @@ Build OpenWrt using GitHub Actions
 - luci-app-udpxy
 - igmpproxy
 
-```
+
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © P3TERX
