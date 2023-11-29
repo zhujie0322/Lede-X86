@@ -16,7 +16,8 @@ Build OpenWrt using GitHub Actions
 - PassWall
 - smartdns
 - luci-app-udpxy
-- igmpproxy
+- ~igmpproxy~
+- omcproxy
 
 
 ## License
